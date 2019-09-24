@@ -1,7 +1,7 @@
 # RxJS Phonepad
 
 A simple phone pad created using RxJS. The stream processing is all done in
-[index.js](./index.js), and some helper functions are defined in [utils.js](./utils.js).
+[index.js](./src/index.js), and some helper functions are defined in [utils.js](./src/utils.js).
 
 <p align="center">
   <img src="example.gif" width="200"></img>
