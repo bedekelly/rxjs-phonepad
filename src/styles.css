@@ -1,0 +1,44 @@
+body {
+  color: white;
+  background-color: black;
+  margin: 0;
+}
+
+#app {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-weight: 100;
+  height: 2.5ch;
+}
+
+.locked {
+  color: #996666;
+}
+
+.unlocked {
+  color: #669966;
+}
+
+#lock-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  outline: 0;
+}
+
+#lock-button:hover {
+  transform: scale(1.1);
+}
+
+.unlocked + #lock-button {
+  display: inline;
+}

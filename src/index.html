@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Empty project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>
+          <span id="locked-indicator" class="locked">Locked</span
+          ><button id="lock-button" onClick="lock()">🔒</button>
+        </h1>
+        <canvas id="pad" width="300px" height="300px"></canvas>
+      </div>
+    </div>
+    <script>
+      function lock() {
+        const indicator = document.querySelector("#locked-indicator");
+        indicator.classList.remove("unlocked");
+        indicator.innerText = "Locked";
+      }
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
