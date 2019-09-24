@@ -3,7 +3,9 @@
 A simple phone pad created using RxJS. The stream processing is all done in
 [index.js](./index.js), and some helper functions are defined in [utils.js](./utils.js).
 
-<img src="example.gif" width="200"></img>
+<p align="center">
+  <img src="example.gif" width="200"></img>
+</p>
 
 RxJS works by combining, buffering, merging and tweaking streams of data. It's
 intended for use as a general-purpose asynchronous library, similar to how
